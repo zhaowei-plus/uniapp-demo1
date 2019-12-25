@@ -1,0 +1,52 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/activity/activity",
+		   "style" : {
+		   	"navigationBarTitleText": "主号邀请活动",
+		   	"titleNView": false,
+		   	"app-plus": {
+		   	    "bounce": "none"
+		   	}
+		   }
+		},
+		{
+		    "path" : "pages/index/init",
+		    "style" : {
+				"navigationBarTitleText": "入口页"
+			}
+		},
+		{
+		    "path" : "pages/index/guides",
+		    "style" : {
+		    	"navigationBarTitleText": "引导页",
+				"titleNView": false,
+				"app-plus": {
+				    "bounce": "none"
+				}
+		    }
+		},
+		{
+		    "path" : "pages/index/home",
+		    "style": {
+		    	"navigationBarTitleText": "首页",
+		    	"navigationBarTextStyle": "black"
+		    }
+		},
+		{
+			"path": "pages/news/index",
+			"style": {}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {}
+		}
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "新闻资讯",
+		"navigationBarBackgroundColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF"
+	}
+}

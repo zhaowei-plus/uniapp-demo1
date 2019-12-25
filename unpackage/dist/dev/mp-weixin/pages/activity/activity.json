@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "主号邀请活动",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

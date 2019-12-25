@@ -123,5 +123,14 @@
 		&-friends {
 			background-image: url('./static/icon-friends.png');
 		}
+		&-singed {
+			background-image: url('./static/icon-singed.png');
+		}
+		&-call-charge {
+			background-image: url('./static/icon-call-charge.png');
+		}
+		&-flow {
+			background-image: url('./static/icon-flow.png');
+		}
 	}
 </style>

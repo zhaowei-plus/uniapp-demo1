@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "每日签到",
+  "titleNView": false,
+  "usingComponents": {
+    "curry-swiper": "/components/curry-swiper/curry-swiper",
+    "curry-slide": "/components/curry-swiper/curry-slide",
+    "special-banner": "/components/special-banner/special-banner"
+  }
+}

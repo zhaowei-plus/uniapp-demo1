@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sign-curry-slide-default": "/pages/sign/sign-curry-slide-default",
+    "curry-swiper": "/components/curry-swiper/curry-swiper",
+    "curry-slide": "/components/curry-swiper/curry-slide",
+    "special-banner": "/components/EtherealWheat-banner/specialBanner"
+  }
+}

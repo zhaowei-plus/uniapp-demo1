@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goTo']]]]}}" class="{{['carousel-3d-slide',computedClasses]}}" style="{{(slideStyle)}}" bindtap="__e"><scoped-slots-default index="{{index}}" isCurrent="{{isCurrent}}" leftIndex="{{leftIndex}}" rightIndex="{{rightIndex}}" bind:__l="__l"></scoped-slots-default></view>

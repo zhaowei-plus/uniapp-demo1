@@ -1,0 +1,29 @@
+
+.carousel-3d-slide {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  top: 0;
+  border-color: #023c41;
+  border-style: solid;
+  background-size: cover;
+  background-color: #ccc;
+  display: block;
+  margin: 0;
+  box-sizing: border-box;
+}
+.carousel-3d-slide {
+  text-align: left;
+}
+.carousel-3d-slide ._img {
+  width: 100%;
+}
+.carousel-3d-slide.current {
+  opacity: 1 !important;
+  visibility: visible !important;
+  -webkit-transform: none !important;
+          transform: none !important;
+  z-index: 999;
+}
+

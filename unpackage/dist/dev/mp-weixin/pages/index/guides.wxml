@@ -1,0 +1,1 @@
+<view class="guides ascreen"><swiper class="swiper" circular indicator-dots="true" autoplay="true" data-event-opts="{{[['change',[['changeTab',['$event']]]]]}}" bindchange="__e"><block wx:for="{{guides}}" wx:for-item="guide" wx:for-index="index" wx:key="index"><swiper-item class="item"><image src="{{guide}}" mode="aspectFill"></image></swiper-item></block></swiper></view>

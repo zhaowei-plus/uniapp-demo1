@@ -1,0 +1,1 @@
+<image class="{{['_img',(isCurrent)?'current':'',(leftIndex>=0)?'onLeft':'',(rightIndex>=0)?'onRight':'']}}" data-index="{{index}}" src="{{slide.img}}"></image>

@@ -3,7 +3,7 @@
 		<view class="sign-header">
 			
 			<!-- 用户信息 -->
-			<view class="users flex fc js">
+			<view class="users flex fc js" v-if="false">
 				<div class="users-info flex fc js">
 					<img class="avatar" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2009648465,963096827&fm=26&gp=0.jpg">
 					<text class="phone">138****6351</text>
@@ -56,7 +56,9 @@
 				</swiper>
 			</view>
 			
-			<special-banner :banner-list="bannerList" :swiper-config="swiperConfig"></special-banner>
+			<special-banner :banner-list="bannerList" :swiper-config="swiperConfig" v-if="false"></special-banner>
+			
+			<swiper-banner :banner-list="bannerList" :swiper-config="swiperConfig"></swiper-banner>
 		</view>
 		
 		<view class="sign-content">
@@ -69,12 +71,14 @@
 	import currySwiper from '@/components/curry-swiper/curry-swiper.vue'
 	import currySlide from '@/components/curry-swiper/curry-slide.vue'
 	import specialBanner from '@/components/special-banner/special-banner.vue'
+	import swiperBanner from '@/components/swiper-banner/swiper-banner.vue'
 	
 	export default {
 		components: {
 			currySwiper,
 			currySlide,
 			specialBanner,
+			swiperBanner
 		},
 		data() {
 			return {

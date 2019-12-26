@@ -169,7 +169,8 @@
 						type: 'other',
 						title: '其他'
 					}
-				]
+				],
+				inviteCounts: 4,
 			}
 		},
 		mounted() {

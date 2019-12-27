@@ -1,9 +1,9 @@
 {
 	"pages": [
 		{
-		   "path" : "pages/sign/sign",
+		   "path" : "pages/activity/activity",
 		   "style" : {
-		   	"navigationBarTitleText": "每日签到",
+		   	"navigationBarTitleText": "主号邀请活动",
 		   	"titleNView": false,
 		   	"app-plus": {
 		   	    "bounce": "none"
@@ -11,9 +11,9 @@
 		   }
 		},
 		{
-		   "path" : "pages/activity/activity",
+		   "path" : "pages/sign/sign",
 		   "style" : {
-		   	"navigationBarTitleText": "主号邀请活动",
+		   	"navigationBarTitleText": "每日签到",
 		   	"titleNView": false,
 		   	"app-plus": {
 		   	    "bounce": "none"

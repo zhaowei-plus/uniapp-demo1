@@ -24,11 +24,11 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.banner-container.data-v-79de137a {
+.banner-container.data-v-47db703c {
   width: 100vw;
   height: 524rpx;
 }
-.banner-container .image-container.data-v-79de137a {
+.banner-container .image-container.data-v-47db703c {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -36,36 +36,36 @@
     display: -webkit-flex;
     display: flex;
 }
-.banner-container .image-container .slide-image.data-v-79de137a {
+.banner-container .image-container .slide-image.data-v-47db703c {
       width: 550rpx;
       height: 328rpx;
       z-index: 200;
 }
-.banner-container .item-left.data-v-79de137a {
+.banner-container .item-left.data-v-47db703c {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
             justify-content: flex-end;
     padding: 56rpx 26rpx 0 0;
 }
-.banner-container .item-right.data-v-79de137a {
+.banner-container .item-right.data-v-47db703c {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
             justify-content: flex-start;
     padding: 56rpx 0 0 26rpx;
 }
-.banner-container .item-center.data-v-79de137a {
+.banner-container .item-center.data-v-47db703c {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
             justify-content: center;
     padding: 56rpx 0 0 0;
 }
-.banner-container .desc-wrap.data-v-79de137a {
+.banner-container .desc-wrap.data-v-47db703c {
     box-sizing: border-box;
     width: 100%;
     height: 98rpx;
     padding: 24rpx 66rpx 0;
 }
-.banner-container .desc-wrap .title.data-v-79de137a {
+.banner-container .desc-wrap .title.data-v-47db703c {
       width: 100%;
       height: 42rpx;
       line-height: 42rpx;
@@ -75,7 +75,7 @@
       font-weight: 600;
       text-align: left;
 }
-.banner-container .desc-wrap .desc.data-v-79de137a {
+.banner-container .desc-wrap .desc.data-v-47db703c {
       margin-top: 4rpx;
       width: 100%;
       height: 34rpx;
@@ -85,7 +85,7 @@
       font-family: 'PingFangTC-Regular';
       text-align: left;
 }
-@keyframes descAnimation-data-v-79de137a {
+@keyframes descAnimation-data-v-47db703c {
 0% {
     opacity: 1;
 }
@@ -102,7 +102,7 @@
     opacity: 1;
 }
 }
-@-webkit-keyframes descAnimation-data-v-79de137a {
+@-webkit-keyframes descAnimation-data-v-47db703c {
 0% {
     opacity: 1;
 }
@@ -119,8 +119,8 @@
     opacity: 1;
 }
 }
-.banner-container .hideAndShowDesc.data-v-79de137a {
-    animation: descAnimation-data-v-79de137a .3s ease 1;
-    -webkit-animation: descAnimation-data-v-79de137a .3s ease 1;
+.banner-container .hideAndShowDesc.data-v-47db703c {
+    animation: descAnimation-data-v-47db703c .3s ease 1;
+    -webkit-animation: descAnimation-data-v-47db703c .3s ease 1;
 }
 

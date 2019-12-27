@@ -1,29 +1,29 @@
 
-.view.data-v-725badf5 {
+.view.data-v-f9dd0a94 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
             flex-direction: column;
 }
-.flex-row.data-v-725badf5 {
+.flex-row.data-v-f9dd0a94 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
             flex-direction: row;
 }
-.flex-col.data-v-725badf5 {
+.flex-col.data-v-f9dd0a94 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
             flex-direction: column;
 }
-.list-cell.data-v-725badf5 {
+.list-cell.data-v-f9dd0a94 {
     padding: 0 30rpx;
 }
-.uni-list-cell-hover.data-v-725badf5 {
+.uni-list-cell-hover.data-v-f9dd0a94 {
     background-color: #eeeeee;
 }
-.media-item.data-v-725badf5 {
+.media-item.data-v-f9dd0a94 {
     position: relative;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -34,7 +34,7 @@
             flex-direction: column;
     padding: 20rpx 30rpx 21rpx 30rpx;
 }
-.media-item-line.data-v-725badf5 {
+.media-item-line.data-v-f9dd0a94 {
     position: absolute;
     left: 30rpx;
     right: 30rpx;
@@ -42,37 +42,37 @@
     height: 1rpx;
     background-color: #ebebeb;
 }
-.media-image-right.data-v-725badf5 {
+.media-image-right.data-v-f9dd0a94 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
             flex-direction: row;
 }
-.media-image-left.data-v-725badf5 {
+.media-image-left.data-v-f9dd0a94 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: row-reverse;
             flex-direction: row-reverse;
 }
-.media-title.data-v-725badf5 {
+.media-title.data-v-f9dd0a94 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
             flex: 1;
 }
-.media-title.data-v-725badf5 {
+.media-title.data-v-f9dd0a94 {
     lines: 3;
     text-overflow: ellipsis;
     font-size: 30rpx;
     color: #555555;
 }
-.media-title2.data-v-725badf5 {
+.media-title2.data-v-f9dd0a94 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
             flex: 1;
     margin-top: 6rpx;
     line-height: 40rpx;
 }
-.image-section.data-v-725badf5 {
+.image-section.data-v-f9dd0a94 {
     margin-top: 20rpx;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -82,31 +82,31 @@
     -webkit-justify-content: space-between;
             justify-content: space-between;
 }
-.image-section-right.data-v-725badf5 {
+.image-section-right.data-v-f9dd0a94 {
     margin-top: 0rpx;
     margin-left: 10rpx;
     width: 225rpx;
     height: 146rpx;
 }
-.image-section-left.data-v-725badf5 {
+.image-section-left.data-v-f9dd0a94 {
     margin-top: 0rpx;
     margin-right: 10rpx;
     width: 225rpx;
     height: 146rpx;
 }
-.image-list1.data-v-725badf5 {
+.image-list1.data-v-f9dd0a94 {
     width: 690rpx;
     height: 481rpx;
 }
-.image-list2.data-v-725badf5 {
+.image-list2.data-v-f9dd0a94 {
     width: 225rpx;
     height: 146rpx;
 }
-.image-list3.data-v-725badf5 {
+.image-list3.data-v-f9dd0a94 {
     width: 225rpx;
     height: 146rpx;
 }
-.media-info.data-v-725badf5 {
+.media-info.data-v-f9dd0a94 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -115,12 +115,12 @@
     -webkit-align-items: center;
             align-items: center;
 }
-.info-text.data-v-725badf5 {
+.info-text.data-v-f9dd0a94 {
     margin-right: 20rpx;
     color: #999999;
     font-size: 24rpx;
 }
-.media-foot.data-v-725badf5 {
+.media-foot.data-v-f9dd0a94 {
     margin-top: 25rpx;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -133,7 +133,7 @@
     -webkit-justify-content: space-between;
             justify-content: space-between;
 }
-.close-view.data-v-725badf5 {
+.close-view.data-v-f9dd0a94 {
     position: relative;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -154,17 +154,17 @@
             justify-content: center;
     text-align: center;
 }
-.close-l.data-v-725badf5 {
+.close-l.data-v-f9dd0a94 {
     position: absolute;
     width: 18rpx;
     height: 1rpx;
     background-color: #aaaaaa;
 }
-.close-h.data-v-725badf5 {
+.close-h.data-v-f9dd0a94 {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
 }
-.close-v.data-v-725badf5 {
+.close-v.data-v-f9dd0a94 {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
 }

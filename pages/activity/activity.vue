@@ -1,5 +1,5 @@
 <template>
-	<view class="activity flex fc">
+	<view class="activity flex fc" :style="{backgroundImage: 'url(' + bgUrl + ')'}">
 		<!-- 获奖信息轮播 -->
 		<view class="carousel flex fr js">
 			<view class="carousel-icon flex fr">
@@ -109,12 +109,16 @@
 <script>
 	import uniPopup from "@/components/uni-popup/uni-popup.vue"
 	
+	// http://gw.aikan.miguvideo.com/ifs/img/70cf99348580296ec6967620d59dc226_bg-activation.png
+	// http://gw.aikan.miguvideo.com/ifs/img/6de7d7b89bfd463536c84abc80c4a1a0_bg-activity.png
+	
 	export default {
 		components: {
 			uniPopup
 		},
 		data() {
 			return {
+				bgUrl: 'http://gw.aikan.miguvideo.com/ifs/img/6de7d7b89bfd463536c84abc80c4a1a0_bg-activity.png',
 				users: [{
 						url: 'https://dss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3747502583,2547015257&fm=58&s=68DAAB447E221E94D2E45C9A0300C080',
 						name: '张若昀'
@@ -231,7 +235,7 @@
 		height: auto;
 		padding: 15rpx 15rpx 100rpx;
 		
-		background-image: url('../../static/bg-activity.png');
+		
 		background-size: cover;
 		
 		// 提示轮播

@@ -1,1 +1,1 @@
-<view class="carousel-3d-container data-v-2ac178c3" style="{{'height:'+(this.slideHeight+'px')+';'}}"><view class="carousel-3d-slider data-v-2ac178c3" style="{{'width:'+(this.slideWidth+'px')+';'+('height:'+(this.slideHeight+'px')+';')}}"><slot></slot></view></view>
+<view class="carousel-3d-container data-v-453271e2" style="{{'height:'+(this.slideHeight+'px')+';'}}"><view class="carousel-3d-slider data-v-453271e2" style="{{'width:'+(this.slideWidth+'px')+';'+('height:'+(this.slideHeight+'px')+';')}}"><slot></slot></view></view>

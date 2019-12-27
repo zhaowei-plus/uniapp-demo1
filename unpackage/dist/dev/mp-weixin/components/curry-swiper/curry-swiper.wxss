@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.carousel-3d-container.data-v-2ac178c3 {
+.carousel-3d-container.data-v-453271e2 {
   min-height: 1px;
   width: 100%;
   position: relative;
@@ -33,7 +33,7 @@
   margin: 0px auto;
   box-sizing: border-box;
 }
-.carousel-3d-slider.data-v-2ac178c3 {
+.carousel-3d-slider.data-v-453271e2 {
   position: relative;
   margin: 0 auto;
   -webkit-transform-style: preserve-3d;

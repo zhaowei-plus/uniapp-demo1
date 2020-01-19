@@ -3,11 +3,34 @@
 		{
 		   "path" : "pages/activity/activity",
 		   "style" : {
-		   	"navigationBarTitleText": "主号邀请活动",
-		   	"titleNView": false,
-		   	"app-plus": {
-		   	    "bounce": "none"
-		   	}
+			    "navigationStyle":"custom",
+				"navigationBarBackgroundColor": "#00c170",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+					// "titleNView": {
+					// 	"buttons": [ 
+					// 		{
+					// 			"text": "地图", 
+					// 			"fontSize":"16",
+					// 			"float": "right",
+					// 			"color":"#fff"
+					// 		},
+					// 		{
+					// 			"text": "唐山", 
+					// 			"fontSize":"16",
+					// 			"float": "left",
+					// 			"color":"#fff"
+					// 		}
+					// 	],
+					// 	"searchInput":{
+					// 		"align": "left",
+					// 		"placeholder": "请输入查找房源信息",
+					// 		"borderRadius":"50upx",
+					// 		"backgroundColor": "#fff"
+					// 	}
+					// }
+				}
 		   }
 		},
 		{

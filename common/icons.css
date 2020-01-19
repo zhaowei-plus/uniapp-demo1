@@ -1,0 +1,37 @@
+/* 全局图标相关: 原子类 */
+.icon {
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon-notify {
+	background-image: url('./static/icon-notify.png');
+}
+.icon-gift {
+	background-image: url('./static/icon-gift.png');
+}
+.icon-semi {
+	background-image: url('./static/icon-semi.png');
+}
+.icon-invite {
+	background-image: url('./static/icon-invite.png');
+}
+.icon-i-know {
+	background-image: url('./static/icon-i-know.png');
+}
+.icon-wx {
+	background-image: url('./static/icon-wx.png');
+}
+.icon-friends {
+	background-image: url('./static/icon-friends.png');
+}
+.icon-singed {
+	background-image: url('./static/icon-singed.png');
+}
+.icon-call-charge {
+	background-image: url('./static/icon-call-charge.png');
+}
+.icon-flow {
+	background-image: url('./static/icon-flow.png');
+}

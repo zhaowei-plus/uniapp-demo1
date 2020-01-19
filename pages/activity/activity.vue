@@ -1,5 +1,6 @@
 <template>
 	<view class="activity flex fc" :style="{backgroundImage: 'url(' + bgUrl + ')'}">
+		<custom-nav-bar @leftClick="leftClick" @onSearch="onSearch" @rightClick="rightClick"></custom-nav-bar>
 		<!-- 获奖信息轮播 -->
 		<view class="carousel flex fr js">
 			<view class="carousel-icon flex fr">
@@ -102,19 +103,23 @@
 				</view>
 			</view>
 		</uni-popup>
-		
+		<custom-tab-bar @onTabs="onTabs"></custom-tab-bar>
 	</view>
 </template>
 
 <script>
 	import uniPopup from "@/components/uni-popup/uni-popup.vue"
+	import customNavBar from "@/components/custom-nav-bar/index.vue"
+	import customTabBar from "@/components/custom-tab-bar/index.vue"
 	
 	// http://gw.aikan.miguvideo.com/ifs/img/70cf99348580296ec6967620d59dc226_bg-activation.png
 	// http://gw.aikan.miguvideo.com/ifs/img/6de7d7b89bfd463536c84abc80c4a1a0_bg-activity.png
 	
 	export default {
 		components: {
-			uniPopup
+			uniPopup,
+			customNavBar,
+			customTabBar
 		},
 		data() {
 			return {
@@ -183,7 +188,26 @@
 		onLoad() {
 			console.log('onLoad');
 		},
+		onNavigationBarButtonTap(val) {
+			console.log('你点击了按钮:', val)
+		},
+		onNavigationBarSearchInputChanged(val) {
+			console.log('你输入了信息:', val)
+		},
 		methods: {
+			leftClick() {
+				console.log('app-leftClick')
+			},
+			onSearch() {
+				console.log('app-onSearch')
+			},
+			rightClick() {
+				console.log('app-rightClick')
+			},
+			onTabs(tab) {
+				console.log('app-onTabs:', tab)
+			},
+			
 			receive() {
 				this.$refs.rewardPopup.open()
 			},
